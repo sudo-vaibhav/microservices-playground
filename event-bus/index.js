@@ -1,5 +1,3 @@
-const { default: Axios } = require('axios');
-
 const app = require('express')();
 app.use(require('body-parser').json());
 app.use(require('cors')());
